@@ -1,0 +1,7 @@
+General rules
+    - Use understandable variable and function names, so something like clientMain() is fine but cm() isn't.
+    - Comment yer code, we're both autistic in near-opposing directions so our understanding of "obviously readable and and intelligible code" may wildly differ.
+    - TBD
+
+Plan
+    - I don't fucking know lmao, we just start with something I guess.

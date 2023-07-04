@@ -1,0 +1,17 @@
+Mihkel
+
+    SignalR - https://www.c-sharpcorner.com/article/understanding-signalr-from-scratch/
+        = Can be used as an alternative to constant polling/pulling
+        = Basically it creates a persistent connection between client and server, and every time the database gets updated, the server pushes all new data to the client
+    InspIRCd - https://www.inspircd.org
+        = A free and open source IRC server
+        = Found from this guide https://www.ionos.com/digitalguide/server/know-how/irc-server/
+    Random reddit threads I found
+        = https://www.reddit.com/r/learncsharp/comments/hnvk8g/i_want_to_create_an_irc_application_in_c_but_dont/
+        = https://www.reddit.com/r/learncsharp/comments/eo9bba/lesson_1_of_free_c_boot_camp_was_a_success/
+    
+Kaarel
+
+    IRC server protocol - https://datatracker.ietf.org/doc/html/rfc1459
+    IRC client protocol - https://datatracker.ietf.org/doc/html/rfc2812
+    
