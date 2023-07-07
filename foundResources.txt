@@ -6,6 +6,7 @@ Mihkel
     InspIRCd - https://www.inspircd.org
         = A free and open source IRC server
         = Found from this guide https://www.ionos.com/digitalguide/server/know-how/irc-server/
+        = Found another source for hosting a server on Ubuntu, should be able to use it on a WSL (Windows Subsystem for Linux)
     Random reddit threads I found
         = https://www.reddit.com/r/learncsharp/comments/hnvk8g/i_want_to_create_an_irc_application_in_c_but_dont/
         = https://www.reddit.com/r/learncsharp/comments/eo9bba/lesson_1_of_free_c_boot_camp_was_a_success/
