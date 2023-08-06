@@ -15,4 +15,6 @@ Kaarel
 
     IRC server protocol - https://datatracker.ietf.org/doc/html/rfc1459
     IRC client protocol - https://datatracker.ietf.org/doc/html/rfc2812
+    Modernized docs - https://modern.ircdocs.horse/
     
+    Good general GUI framework - https://github.com/picoe/Eto
