@@ -7,6 +7,7 @@ public class Message
     {
         class Key
         {
+            static private readonly Regex rx = new Regex(@"^[a-zA-Z0-9\-]+$", RegexOptions.Compiled);
             public string ClientPrefix {get;}
             public string Vendor {get;}
             public string Keyname {get;}
@@ -25,7 +26,6 @@ public class Message
                     }
                     index = slashIndex+1;
                 }
-                Regex rx = new Regex(@"^[a-zA-Z0-9\-]+", RegexOptions.Compiled);
                 Match keynameMatch = rx.Match(rawKey, slashIndex);
                 if (!keynameMatch.Success) {
                     throw new Exception("Failed key parsing: Invalid key name");
@@ -35,7 +35,14 @@ public class Message
         }
         class Value
         {
-
+            static private readonly Regex rx = new Regex(@"^[^\x00\r\n;\ ]*$", RegexOptions.Compiled);
+            public string Seq {get;}
+            public Value(string rawValue) {
+                if (!rx.IsMatch(rawValue)) {
+                    throw new Exception("Failed value parsing.");
+                }
+                Seq = rawValue;
+            }
         }
     }
     public Tag VTag {
